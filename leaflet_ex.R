@@ -1,6 +1,6 @@
 library(readxl)
 library(leaflet)
-dataset <- read_excel("C:/Users/micha/Downloads/coordinates.xlsm")
+dataset <- read_excel("coordinates.xlsm") #C:/Users/micha/Downloads/
 
 v_longitude <- as.double(dataset$Longitude)
 v_latitude <- as.double(dataset$Latitude)
